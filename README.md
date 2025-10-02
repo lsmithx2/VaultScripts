@@ -44,3 +44,12 @@ sudo ./pve-upgrade.sh
 Backup all VMs and containers before upgrading
 Ceph users must upgrade to Ceph Squid first
 Test upgrades on non-production nodes if possible
+
+## 3. `proxmox-auto-update.sh`
+**Purpose:** Automates the update process and shedule to reboot if needed.
+**Features:**
+- Refreshes package lists (apt update)
+- Installs all available updates (apt full-upgrade)
+- Cleans unused packages (apt autoremove and apt clean)
+- Optionally schedules a reboot at a specific time using at
+- Fully interactive with default options
