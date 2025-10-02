@@ -9,7 +9,7 @@ This repository is designed to make managing Proxmox servers and Linux systems e
 
 ## 🔹 Available Scripts
 
-### 1. `proxmox-configurator.sh`
+### 1. `proxmox-setup.sh`
 **Purpose:** Interactive setup and hardening of a fresh Proxmox node.  
 **Features:**
 - Disable enterprise repository, enable no-subscription repo  
@@ -21,11 +21,11 @@ This repository is designed to make managing Proxmox servers and Linux systems e
 
 **Usage:**
 ```bash
-chmod +x nrfk-proxmox-configurator.sh
-sudo ./nrfk-proxmox-configurator.sh
+chmod +x proxmox-configurator.sh
+sudo ./proxmox-configurator.sh
 ```
 
-## 2. Proxmox Upgrade
+## 2. `pve-upgrade.sh`
 **Purpose:** Automates the upgrade from Proxmox VE 8 to 9.
 **Features:**
 - Backup essential configs (/etc/pve, network, resolv.conf)
