@@ -33,7 +33,7 @@ sudo ./proxmox-configurator.sh
 - Run pve8to9 upgrade check tool
 - Update APT sources to Debian Trixie and Proxmox VE 9 repos
 - Full system upgrade and reboot
-- 
+  
 **Usage:**
 ```bash
 chmod +x pve-upgrade.sh
@@ -53,3 +53,9 @@ Test upgrades on non-production nodes if possible
 - Cleans unused packages (apt autoremove and apt clean)
 - Optionally schedules a reboot at a specific time using at
 - Fully interactive with default options
+
+**Usage:**
+```bash
+chmod +x proxmox-auto-update.sh
+sudo ./proxmox-auto-update.sh
+```
