@@ -9,7 +9,7 @@ This repository is designed to make managing Proxmox servers and Linux systems e
 
 ## 🔹 Available Scripts
 
-### 1. `nrfk-proxmox-configurator.sh`
+### 1. `proxmox-configurator.sh`
 **Purpose:** Interactive setup and hardening of a fresh Proxmox node.  
 **Features:**
 - Disable enterprise repository, enable no-subscription repo  
